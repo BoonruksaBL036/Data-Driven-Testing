@@ -14,8 +14,8 @@ import java.io.FileInputStream;
 
 public class TestRegister {
     @Test
-    void test01() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "./chromedriver/chromedriver.exe");
+    void test101() throws Exception {
+        System.setProperty("webdriver.chrome.driver", "./chromedriver/chromedriver-win32/chromedriver.exe");
 
         String path = "./Excel/Register.xlsx";
         FileInputStream fs = new FileInputStream(path);
